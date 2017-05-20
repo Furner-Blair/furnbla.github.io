@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+* {
+    box-sizing: border-box; /* changes width property
+    to total width instead of content width */
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main,
+figcaption,
+figure {
+    display: block; /* just in case we have
+    any older browsers that don't recognize
+    the HTML5 semantic elements */
+}
+
+body {
+    margin: 0; /* remove any margin from body */
+    padding: 0; /* ditto for padding */
+    background-color: salmon;
+    font-size: 20px;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-image: url(plan-images/sunny-winter.jpg);
+    background-size: cover;
+}
+h1 {
+    background-color: #A6D8DB;
+}
+.local{
+    color: chartreuse;
+}
+nav ul {
+    display: flex;
+}
+nav a:link {
+    text-decoration: none;
+    color: #47556F;
+}
+a:visited {
+    background-color: #4A4653;
+}
+a:hover {
+    background-color: #E7EF61;
+}
+a:active {
+    background-color: #A6D8DB;
+}
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F07C61;
+}
+.title h1 + h1 {
+    text-align: right;
+    margin-top: -.7em;
+    font color: chartreuse;
+}
+.hourly ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.hourly{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+footer{
+    margin-bottom: 2cm;
+    background-color: #47556F;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Sansita, "second choice", generic-family;
+}
+.title{
+    font-size: 20px;
+    text-align: right;
+}
+.area{
+    font-size: 20px;
+}
+.cur_conditions{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.center-page{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.none{
+    list-style-type: none;
+}
+.rotation{
+    transform: rotate(25deg);
+    display: inline-block;
+}
+
