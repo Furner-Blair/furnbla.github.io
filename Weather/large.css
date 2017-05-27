@@ -24,10 +24,12 @@ body {
     background-color: salmon;
     font-size: 20px;
 }
+.title h1 + h1 {
+    text-align: left;
+    margin-top: -.7em;
+    font color: chartreuse;
+}
 main {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
     background-image: url(plan-images/sunny-winter.jpg);
     background-size: cover;
 }
@@ -35,6 +37,7 @@ h1 {
     background-color: #A6D8DB;
 }
 .local{
+    align-self: flex-start;
     color: chartreuse;
 }
 nav ul {
@@ -54,16 +57,7 @@ a:active {
     background-color: #A6D8DB;
 }
 nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background-color: #F07C61;
-}
-.title h1 + h1 {
-    text-align: right;
-    margin-top: -.7em;
-    font color: chartreuse;
 }
 .hourly ul{
     list-style-type: none;
@@ -72,7 +66,6 @@ nav {
 
 }
 .hourly{
-    display: none;
     background-color: rgba(200,200,200,.6);
     margin: .2em auto;
     border: 1px solid;
@@ -80,6 +73,7 @@ nav {
 
 }
 footer{
+    text-align: center;
     margin-bottom: 2cm;
     background-color: #47556F;
 }
@@ -93,7 +87,7 @@ h6 {
 }
 .title{
     font-size: 20px;
-    text-align: right;
+    text-align: center;
 }
 .area{
     font-size: 20px;
@@ -117,4 +111,3 @@ h6 {
     transform: rotate(25deg);
     display: inline-block;
 }
-
