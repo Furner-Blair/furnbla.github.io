@@ -32,6 +32,12 @@ body {
 main {
     background-image: url(plan-images/sunny-winter.jpg);
     background-size: cover;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 h1 {
     background-color: #A6D8DB;
@@ -40,24 +46,29 @@ h1 {
     align-self: flex-start;
     color: chartreuse;
 }
-nav ul {
+nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav a:link {
     text-decoration: none;
     color: #47556F;
 }
-a:visited {
-    background-color: #4A4653;
+nav a:visited {
+    text-decoration: none;
+    color: #4A4653;
 }
-a:hover {
-    background-color: #E7EF61;
+nav a:hover {
+    color: #E7EF61;
+    text-decoration: underline;
 }
-a:active {
-    background-color: #A6D8DB;
+nav a:active {
+    color: #A6D8DB;
+    text-decoration: underline;
 }
 nav {
-    background-color: #F07C61;
+    color: #F07C61;
 }
 .hourly ul{
     list-style-type: none;

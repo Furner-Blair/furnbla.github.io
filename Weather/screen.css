@@ -37,21 +37,25 @@ h1 {
 .local{
     color: chartreuse;
 }
-nav ul {
+nav {
     display: flex;
+    justify-content: space-between;
 }
 nav a:link {
     text-decoration: none;
     color: #47556F;
 }
-a:visited {
-    background-color: #4A4653;
+nav a:visited {
+    text-decoration: none
+    color: #4A4653;
 }
-a:hover {
-    background-color: #E7EF61;
+nav a:hover {
+    color: #E7EF61;
+    text-decoration: underline;
 }
-a:active {
-    background-color: #A6D8DB;
+nav a:active {
+    color: #A6D8DB;
+    text-decoration: underline;
 }
 nav {
     position: fixed;
@@ -80,6 +84,8 @@ nav {
 
 }
 footer{
+    display: flex;
+    justify-content: center;
     margin-bottom: 2cm;
     background-color: #47556F;
 }
