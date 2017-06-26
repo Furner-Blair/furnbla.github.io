@@ -36,7 +36,7 @@ $(function () {
                 var feelslike = parsed_json['current_observation']['feelslike_f'];
                 var update = parsed_json['current_observation']['observation_time'];
                 $("#currentTemp").html(Math.round(temp_f) + "&#176;");
-                $("#cityDisplay").html(location + "," + state);
+                $("#cityDisplay").html(location + "," + " " + state);
                 $('#summary').html(summary);
                 $('#add1').html("Wind MPH:" + " " + wind);
                 $('#add2').html("Today's Precipitation:" + ' ' + precip);
