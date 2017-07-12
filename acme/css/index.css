@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box; /* changes width property
+    to total width instead of content width */
+}
+    body{
+        margin: 0; /* remove any margin from body */
+        padding: 0;
+        font-size: 20px;
+        font-family: sans-serif;
+        list-style-type: none;
+
+    }
+    #h1{
+        position: relative;
+        background-color:#ffffff;
+        height: 50px;
+        margin: 0 auto;
+        width: 72.5%;
+        list-style-type: none;
+    }
+
+    nav{
+        background-color: #de2226;
+        color: #ffffff;
+        text-align: center;
+        height: 50px;
+        width: 72.5%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    nav a{
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    nav a:link {
+        text-decoration: none;
+        color: #47556F;
+    }
+    nav a:visited {
+        text-decoration: none
+        color: #4A4653;
+    }
+    nav a:hover {
+        color: #E7EF61;
+        text-decoration: underline;
+    }
+    nav a:active {
+        color: #A6D8DB;
+        text-decoration: underline;
+    }
+
+    #letter{
+        position: absolute;
+        left: 55%;
+        top: 40%;
+        list-style-type: none;
+        color: #990033;
+    }
+/*
+#letter ul{
+    list-style: none;
+    font-size: 12px;
+    padding: 0;
+    padding-left: 10px;
+    font-weight: bold;
+    margin: 0;
+    background-color: rgba(220, 220, 220, .6);
+    width: 55%;
+}
+*/
+    html{
+        background-size: cover;
+        text-align: center;
+        background-image: url(../images/site/background.jpg);
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        list-style-type: none;
+
+    }
+    #logo{
+        background-color: #ffffff;
+        text-align: left;
+        width: 72.5%;
+        margin: 0 auto;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 72.5%;
+        height: 20px;
+        font-size: 17px;
+        list-style-type: none;
+
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        width: 72.5%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        list-style-type: none;
+    }
+    #recipes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-content: center;
+        background-color: #ffffff;
+
+    }
+    #second{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-content: center;
+        background-color: #ffffff;
+    }
+    #border{
+        border-style: solid;
+        position: inherit;
+        width: auto;
+    }
+    #foot{
+        background-color: #ffffff;
+        position: inherit;
+        width: auto;
+        left: 175px;
+        top: 5px;
+        font-size: 18px;
+ }
+@media screen and (max-width: 600px) {
+        #image{
+            max-width: 100%;
+            height: auto;
+        }
+    .content{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: stretch;
+        width: 72.5%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        list-style-type: none;
+    }
+    nav{
+        background-color: #de2226;
+        color: #ffffff;
+        text-align: center;
+        height: 50px;
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #foot{
+        background-color: #ffffff;
+        position: inherit;
+        width: auto;
+        display: flex;
+        justify-content: stretch;
+        flex-direction: column;
+        margin-bottom: 2cm;
+    }
+    #border{
+        position: inherit;
+        width: auto;
+    }
+    #letter{
+        font-size: 10px;
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        list-style-type: none;
+        color: #990033;
+    }
+    #actionbtn{
+        height: 40px;
+    }
+
+
+}
+
+
+
+
+
