@@ -54,24 +54,21 @@
     }
 
     #letter{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
         position: absolute;
         left: 55%;
-        top: 40%;
+        top: 32%;
         list-style-type: none;
         color: #990033;
+        width: 30%;
     }
-/*
-#letter ul{
-    list-style: none;
-    font-size: 12px;
-    padding: 0;
-    padding-left: 10px;
-    font-weight: bold;
-    margin: 0;
-    background-color: rgba(220, 220, 220, .6);
-    width: 55%;
+#action{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
-*/
     html{
         background-size: cover;
         text-align: center;
@@ -187,10 +184,11 @@
     #letter{
         font-size: 10px;
         position: absolute;
-        left: 40%;
+        left: 41%;
         top: 30%;
         list-style-type: none;
         color: #990033;
+        width: auto;
     }
     #actionbtn{
         height: 40px;

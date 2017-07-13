@@ -25,7 +25,7 @@ $(".button").on("click", "a", function (evt){
 
                 $("#total").css({"background-color": "#ffffff", "width": "72.5%", "margin": "0 auto"})
                 $("#letter").css({"display": "flex", "flex-direction": "column-reverse", "text-align": "left"})
-                $("#list1,#list2,#list3").css({"color": "black", "display": "flex", "justify-content": "flex-start"})
+                $("#list1,#list2,#list3").css({"color": "black", "display": "flex", "justify-content": "flex-start", "width": "auto"})
                 $("#action").css({"color": "#de2226"})
 
                 $(".wrapper").hide();
