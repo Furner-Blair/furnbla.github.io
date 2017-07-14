@@ -41,7 +41,7 @@
         color: #47556F;
     }
     nav a:visited {
-        text-decoration: none
+        text-decoration: none;
         color: #4A4653;
     }
     nav a:hover {
@@ -173,7 +173,6 @@
         position: inherit;
         width: auto;
         display: flex;
-        justify-content: stretch;
         flex-direction: column;
         margin-bottom: 2cm;
     }
