@@ -138,6 +138,7 @@
         top: 5px;
         font-size: 18px;
  }
+/*This is for the wide screen*/
 @media screen and (max-width: 600px) {
         #image{
             max-width: 100%;
